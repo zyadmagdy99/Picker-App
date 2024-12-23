@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "num",
-    "slug": "num",
+    "name": "picker",
+    "slug": "picker",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "orientation": "default",
+    "icon": "./assets/game.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/bg.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,21 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/bg.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zyad123110.picker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "42421b01-903f-4fae-9813-3c3311d03b50"
+      }
     }
   }
 }
